@@ -1,0 +1,78 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+   flex-wrap: wrap;
+   /* width: 100%; */
+   justify-content: flex-start;
+}
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    flex-wrap: wrap;
+    font-weight: 400;
+}
+
+.addittional {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.poster {
+    margin-right: 15px;
+    border-radius: 40px;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+   
+}
+
+.additionalList {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.additionalListLink {
+padding-left: 10px;
+font-size: 18px;
+font-weight: bold;
+}
+
+.additionalListLinkActive {
+    color: rgb(206, 24, 24);
+}
+
+.backBTN {
+    color: #fff ;
+text-transform: uppercase;
+text-decoration: none;
+background: #60a3bc;
+padding: 5px;
+border-radius: 50px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+cursor: pointer;
+font-size: 12px;
+margin-bottom: 20px;
+border: solid 1px rgb(207, 160, 197);
+font-weight: bold;
+}
+
+.backBTN:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+transition: all 0.4s ease 0s;
+box-shadow: 0px 0px 5px 2px rgba(235,170,235,1);
+}

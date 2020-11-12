@@ -1,0 +1,21 @@
+
+.img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imgTitle {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
