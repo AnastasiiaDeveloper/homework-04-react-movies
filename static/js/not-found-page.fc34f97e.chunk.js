@@ -1,2 +1,2 @@
 (this.webpackJsonpmovies4=this.webpackJsonpmovies4||[]).push([[4],{93:function(e,n,t){"use strict";t.r(n);var s=t(0),i=t.n(s);n.default=function(){return i.a.createElement("h2",null,"Sorry, this page is not found")}}}]);
-//# sourceMappingURL=not-found-page.ec2aaf70.chunk.js.map
+//# sourceMappingURL=not-found-page.fc34f97e.chunk.js.map

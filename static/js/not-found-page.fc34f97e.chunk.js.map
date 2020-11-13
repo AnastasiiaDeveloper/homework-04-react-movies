@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/pages/not-found-page/NotFoundPage.js"],"names":["NotFound"],"mappings":"mGAAA,2BAKeA,UAJE,kBAChB","file":"static/js/not-found-page.fc34f97e.chunk.js","sourcesContent":["import React from 'react'\r\nconst NotFound = () => (\r\n <h2>Sorry, this page is not found</h2>\r\n);\r\n\r\nexport default NotFound;\r\n"],"sourceRoot":""}
