@@ -1,6 +1,6 @@
 import React from 'react'
-const About = () => (
+const NotFound = () => (
  <h2>Sorry, this page is not found</h2>
 );
 
-export default About;
+export default NotFound;

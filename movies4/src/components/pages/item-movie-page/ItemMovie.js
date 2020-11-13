@@ -44,7 +44,7 @@ class ItemMoviePage extends Component {
     return (
       <>
         <button onClick={this.handleGoBack} className={styles.backBTN}>
-          &larr; Back to all movies
+          &larr; Come back to all movies
         </button>
         <div className={styles.container}>
           <img

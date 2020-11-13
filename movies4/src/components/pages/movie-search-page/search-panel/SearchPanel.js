@@ -17,12 +17,12 @@ class SearchPanel extends Component {
       <form onSubmit={this.handleSubmit}>
         <input
           type="search"
-          placeholder="Search"
+          placeholder="Search for Movies ..."
           onChange={this.handleChange}
           value={this.state.value}
           className={styles.input}
         />
-        <button type="submit" className={styles.button}>Go!</button>
+        <button type="submit" className={styles.button}>Here we go!</button>
       </form>
     );
   }
