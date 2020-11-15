@@ -4,7 +4,7 @@ import Reviews from "./reviews/Reviews";
 import { Route, NavLink, withRouter } from "react-router-dom";
 import { getMovieById } from "../../services/services";
 import styles from "./ItemMovie.module.css";
-export const getIdFromProps = props => props.match.params.movieId;
+export const getIdFromProps = (props) => props.match.params.movieId;
 class ItemMoviePage extends Component {
   state = {
     id: null,
@@ -13,38 +13,50 @@ class ItemMoviePage extends Component {
     userScore: "",
     genres: [],
     score: null,
-    path: null
+    path: null,
   };
   async componentDidMount() {
     const id = getIdFromProps(this.props);
 
-    getMovieById(id).then(data =>
+    getMovieById(id).then((data) =>
       this.setState({
         id: data.id,
         title: data.title,
         overview: data.overview,
         genres: data.genres,
         score: data.score,
-        path: data.path
+        path: data.path,
       })
     );
   }
 
+  // handleGoBack = () => {
+  //   const { history, location } = this.props;
+  //   if (location.state) {
+  //     return history.push(location.state.from);
+  //   } else {
+  //     history.push("/");
+  //   }
+  // };
+
   handleGoBack = () => {
-    const { history, location } = this.props;
-    if (location.state) {
-      return history.push(location.state.from);
-    } else {
-      history.push("/");
+    const { state } = this.props.location;
+
+    if (state) {
+      this.props.history.push(state.from);
+      return;
     }
+
+    this.props.history.push("/movie");
   };
+
   render() {
     const { id, title, overview, genres, score, path } = this.state;
 
     return (
       <>
         <button onClick={this.handleGoBack} className={styles.backBTN}>
-          &larr; Come back to all movies
+          &larr; Go Back
         </button>
         <div className={styles.container}>
           <img
@@ -58,7 +70,7 @@ class ItemMoviePage extends Component {
             <p>{overview}</p>
             <h3>Genres:</h3>
             <ul>
-              {genres.map(item => (
+              {genres.map((item) => (
                 <li key={item.id}>{item.name}</li>
               ))}
             </ul>
@@ -68,7 +80,7 @@ class ItemMoviePage extends Component {
             <ul className={styles.additionalList}>
               <NavLink
                 to={{
-                  pathname: `/movie/${this.state.id}/credits`
+                  pathname: `/movie/${this.state.id}/credits`,
                 }}
                 itemId={this.state.id}
                 className={styles.additionalListLink}
@@ -78,7 +90,7 @@ class ItemMoviePage extends Component {
               </NavLink>
               <NavLink
                 to={{
-                  pathname: `/movie/${this.state.id}/reviews`
+                  pathname: `/movie/${this.state.id}/reviews`,
                 }}
                 className={styles.additionalListLink}
                 activeClassName={styles.additionalListLinkActive}

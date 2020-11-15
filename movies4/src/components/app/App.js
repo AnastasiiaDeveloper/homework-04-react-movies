@@ -25,7 +25,7 @@ const NotFoundPage = lazy(() =>
 );
 class App extends Component {
   state = {
-    hits: []
+    hits: [],
   };
   async componentDidMount() {
     const movieItems = getMoviesHits().then(data =>
