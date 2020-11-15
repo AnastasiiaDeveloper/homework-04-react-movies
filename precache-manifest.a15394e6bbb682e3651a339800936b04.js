@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a87774eba0049987a0bffdc62c92d215",
+    "revision": "6a3a8a38cb3dffb0dc44cb561d9e4560",
     "url": "/goit-react-hw-04-movies/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/goit-react-hw-04-movies/static/css/home-page(trending-today).f1d50693.chunk.css"
   },
   {
-    "revision": "1e722bc0fcf9ce38f8c7",
-    "url": "/goit-react-hw-04-movies/static/css/item-movie.822a8d47.chunk.css"
+    "revision": "e20b757290b2068dd6c6",
+    "url": "/goit-react-hw-04-movies/static/css/item-movie.b8c86c4a.chunk.css"
   },
   {
     "revision": "c3660c4dffdf10140bb8",
     "url": "/goit-react-hw-04-movies/static/css/main.49379323.chunk.css"
   },
   {
-    "revision": "f97931fadd5ad45b8ea9",
+    "revision": "6437e73fa1ed8695dad8",
     "url": "/goit-react-hw-04-movies/static/css/movie-search.c20e3bb9.chunk.css"
   },
   {
@@ -32,23 +32,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/goit-react-hw-04-movies/static/js/home-page(trending-today).f03ababf.chunk.js"
   },
   {
-    "revision": "1e722bc0fcf9ce38f8c7",
-    "url": "/goit-react-hw-04-movies/static/js/item-movie.8c6d6854.chunk.js"
+    "revision": "e20b757290b2068dd6c6",
+    "url": "/goit-react-hw-04-movies/static/js/item-movie.410f2391.chunk.js"
   },
   {
     "revision": "c3660c4dffdf10140bb8",
     "url": "/goit-react-hw-04-movies/static/js/main.fa2ae94d.chunk.js"
   },
   {
-    "revision": "f97931fadd5ad45b8ea9",
-    "url": "/goit-react-hw-04-movies/static/js/movie-search.2320599c.chunk.js"
+    "revision": "6437e73fa1ed8695dad8",
+    "url": "/goit-react-hw-04-movies/static/js/movie-search.ca3b4ce5.chunk.js"
   },
   {
     "revision": "3ea9596e9e2c18b60892",
     "url": "/goit-react-hw-04-movies/static/js/not-found-page.fc34f97e.chunk.js"
   },
   {
-    "revision": "58ba02d106497e3253a6",
-    "url": "/goit-react-hw-04-movies/static/js/runtime-main.b77d0582.js"
+    "revision": "53746945dfdad9c6dc18",
+    "url": "/goit-react-hw-04-movies/static/js/runtime-main.2d4d92ff.js"
   }
 ]);
